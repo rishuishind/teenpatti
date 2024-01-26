@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <Fragment>
-      <div className='lg:grid grid-cols-2 h-full flex flex-col'>
+      <div className='lg:grid grid-cols-2 h-full flex flex-col bg-[#212529]'>
           <div className='col-span-1  flex justify-center items-center'>
             <Image src={cardimg} alt="card-image" />
           </div>
